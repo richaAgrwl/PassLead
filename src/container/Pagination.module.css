@@ -1,0 +1,74 @@
+.item {
+  align-items: center;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  height: 40px;
+  justify-content: center;
+  width: 50px;
+  padding: 15px; /* Adjusted padding for a better look */
+  transition: background-color 0.3s ease; /* Added transition for smooth effect */
+  box-sizing: border-box;
+}
+
+.item:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+  border-radius: 40px;
+}
+
+.disabledpage {
+  color: #888484 !important;
+  cursor: not-allowed; /* Change cursor for disabled pages */
+}
+
+.active {
+  border: none;
+  background-color: rgb(233 240 240);
+  border-radius: 40px;
+  color: #005fed;
+  cursor: default; /* Remove pointer cursor on active page */
+}
+
+.next,
+.previous {
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: #005fed;
+  transition: background-color 0.3s ease; /* Added transition for smooth effect */
+  box-sizing: border-box;
+}
+
+.next:hover,
+.previous:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+.pagination {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+}
+
+.paginationpage {
+  font-weight: 700;
+}
+
+/* Adjust the position of next and previous buttons */
+.next {
+  right: 10px;
+}
+
+.previous {
+  left: 10px;
+}

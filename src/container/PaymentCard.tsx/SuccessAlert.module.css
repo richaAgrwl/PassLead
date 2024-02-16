@@ -1,0 +1,28 @@
+.success-alert {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.success-alert .icon {
+  font-size: 24px;
+  float: left;
+  margin-right: 10px;
+}
+
+.success-alert.show {
+  display: block;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

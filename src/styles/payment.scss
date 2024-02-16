@@ -1,0 +1,75 @@
+.payment_container{
+    .payment_heading{
+        box-shadow: 0 5px 12px rgb(0 0 0 / 10%);
+        background-color:  #2b72ee;
+        color: #fff;
+    }
+    .card_data{
+            background: rgba(243, 243, 243, 0.8784313725);
+            margin-top: 2rem;
+            padding: 2rem;
+            border-radius: 15px;
+            min-height: 72vh;
+        
+        .error-container {
+            margin-top: 5px;
+            height: 14px;
+            font-size: 14px;
+        }
+        .payment_detail{
+            padding: 2rem;
+            border-radius: 6px;
+            text-align: left;
+            .capsule_container .capsule {
+                display: flex;
+                font-size: 13px;
+                font-weight: 500;
+                /* flex-wrap: wrap; */
+                align-items: center;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 7px 13px;
+                gap: 10px;
+                /* flex-direction: row-reverse; */
+                cursor: pointer;
+            }
+        }
+        .form_data {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 6px;
+            box-shadow: 0px 0px 6px #b7b5b5;
+            .form-group{
+                   
+                label{
+                    font-size: 18px;
+                    margin-bottom: 11px;
+         
+                }
+              
+            }
+        }
+        .card_btn{
+           width: 100%;
+            background-color: #2b72ee;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 11px;
+            border: 0px;
+            
+        
+        }
+        .card_btn_cancel{
+           width: 100%;
+            background-color: #056d3c;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 11px;
+            border: 0px;
+           
+        
+        }
+    }
+}
